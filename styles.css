@@ -17,23 +17,33 @@ h6 {
 .header {
   padding: 48px 16px;
   text-align: center;
-  background-color: bisque;
+  background-image: url(images/css-background-3.png);
+  background-size: 100%;
   border: 5px solid;
 }
 .main {
   max-width: 800px;
-  margin: 0 auto;
-  padding: 16px;
+  padding: 48px 16px;
+  border: solid;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  background-image: url(images/css-wallpaper.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
 }
 [href] {
-  color: midnightblue;
+  color: white;
   padding: 30px;
 }
 article {
-  border: 2px solid;
+  border: 2px solid gray;
   margin: 15px;
-  background-color: cornsilk;
+  background-color: black;
   padding: 15px;
+  color: aliceblue;
+  text-align: left;
 }
 #title-1 {
   font-size: 2.5em;
