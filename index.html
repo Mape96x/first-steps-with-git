@@ -3,53 +3,95 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Marek Pentzek">
+    <meta name="description" content="CV Marek Pentzek">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Cool Website</title>
-    <link rel="stylesheet" href="style.css"> <!-- You can link to your CSS file here -->
+    <title>Lebenslauf Marek</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <h1>Welcome to Your Cool Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Picture</a></li>
-            </ul>
-        </nav>
+
+    <header class="header">
+        <h1 id="title-1">Lebenslauf</h1>
+        <h4>
+            <nav>
+                <a href="#Profile">Profile</a>
+                <a href="#Experience">Experience</a>
+                <a href="#Skills">Skills</a>
+                <a href="#Contact">Contact</a>
+            </nav>
+        </h4>
     </header>
 
-    <section class="main-content">
-        <h2>About Us</h2>
-        <p>This is a brief description of your website.</p>
-    </section>
+    <main class="main">
+        <article>
+            <h1>Marek Pentzek</h1>
+            <p>Frontend Developer</p>
+            <section>
+                <h2>About me</h2>
+                <p><strong>Future</strong> Frontend Developer, <strong>actually</strong> learning.</p>
+            </section>
+            <article id="Profile">
+                <section>
 
-    <section class="featured">
-        <h2>Featured Content</h2>
-        <div class="feature-item">
-            <img src="image1.jpg" alt="Image 1">
-            <h3>Feature 1</h3>
-            <p>Description of feature 1.</p>
-        </div>
-        <div class="feature-item">
-            <img src="image2.jpg" alt="Image 2">
-            <h3>Feature 2</h3>
-            <p>Description of feature 2.</p>
-        </div>
-        <div class="feature-item">
-            <img src="image3.jpg" alt="Image 3">
-            <h3>Feature 3</h3>
-            <p>Description of feature 3.</p>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Your Cool Website</p>
-    </footer>
+                    <h2>Profile </h2>
+                    <ul>
+                        <li>Name : Marek Pentzek</li>
+                        <li>Geburtsdatum: 09.09.1996</li>
+                        <li>Wohnort: Meppen (Ems) </li>
+                        <li>Straße: Mozartsraße 33</li>
+                        <li>Telefon: 015227607478</li>
+                        <li>E-Mail mdpentzek@gmail.com</li>
+                        <li>Familienstand: ledig</li>
+                    </ul>
+                </section>
+            </article>
+            <article id="Experience">
+                <section>
+                    <h2>Experience </h2>
+                    <header>
+                        <h3>Fachinformatiker für Anwendungsentwicklung - Berky GmbH</h3>
+                        <p>07.2021 - 05.2023</p>
+                        <h3>Ausbildung zum Fachinformatiker für Anwendungsentwicklung</h3>
+                        <p>07.19 - 06.2021</p>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deleniti dolores sed adipisci
+                        id
+                        quam officiis numquam vero, expedita illo labore repudiandae, accusamus consectetur? Beatae quos
+                        corporis dignissimos repellat rem?</p>
+                </section>
+            </article>
+            <article id="Skills">
+                <section>
+                    <h2>Skills</h2>
+                    <section>
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Empathy</li>
+                            <li>Creative Thinking</li>
+                            <li>anything</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Technical Skills</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>C#</li>
+                        </ul>
+                    </section>
+                </section>
+            </article>
+            <article id="Contact">
+                <h2>Contact</h2>
+                <ol>
+                    <li>E-Mail: <a href="mailto:marekpj96@gmail.com">marekpj96@gmail.com</a></li>
+                    <li>Telefon: <a href="tel:+4915227607478">+4915227607478</a></li>
+                </ol>
+            </article>
+        </article>
+    </main>
 </body>
 
 </html>

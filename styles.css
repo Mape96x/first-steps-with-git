@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  margin: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header {
+  padding: 48px 16px;
+  text-align: center;
+  background-color: bisque;
+  border: 5px solid;
+}
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+[href] {
+  color: midnightblue;
+  padding: 30px;
+}
+article {
+  border: 2px solid;
+  margin: 15px;
+  background-color: cornsilk;
+  padding: 15px;
+}
+#title-1 {
+  font-size: 2.5em;
+}
