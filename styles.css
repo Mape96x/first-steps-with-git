@@ -71,3 +71,6 @@ main > :nth-child(1) {
 section > h2::after {
   content: "🌳";
 }
+section > h2::before {
+  content: "🌳";
+}
