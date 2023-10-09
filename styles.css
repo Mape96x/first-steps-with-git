@@ -78,3 +78,9 @@ section > h2::after {
 section > h2::before {
   content: "🌳";
 }
+.exp-heading {
+  display: inline-block;
+}
+.exp-subheading {
+  display: inline-block;
+}
