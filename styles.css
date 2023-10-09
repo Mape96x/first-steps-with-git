@@ -84,3 +84,16 @@ section > h2::before {
 .exp-subheading {
   display: inline-block;
 }
+.Heading {
+  position: relative;
+  left: -30px;
+}
+.hire-me {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  padding: 8px;
+  border-radius: 4px;
+  background: orange;
+  color: black;
+}
