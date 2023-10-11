@@ -18,6 +18,11 @@ h5,
 h6 {
   font-family: "Times New Roman", Times, serif;
 }
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .header {
   padding: 1rem;
@@ -77,12 +82,11 @@ section > h2::after {
 section > h2::before {
   content: "🌳";
 }
-.exp-heading {
-  display: inline-block;
+.exp-header {
+  display: flex;
+  flex-direction: column;
 }
-.exp-subheading {
-  display: inline-block;
-}
+
 .Heading {
   position: relative;
   left: -30px;
@@ -133,5 +137,16 @@ section > h2::before {
 @media screen and (min-width: 768px) {
   .main > * + * {
     margin-top: 5rem;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .exp-header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
   }
 }
