@@ -9,6 +9,7 @@ html {
 
 body {
   margin: 0px;
+  --main-color: red;
 }
 h1,
 h2,
@@ -29,7 +30,7 @@ nav {
   text-align: center;
   background-image: url(images/css-background-3.png);
   background-size: 100%;
-  border: 0.25px solid black;
+  border: 0.25px solid var(--main-color);
 }
 .main {
   max-width: 80ch;
@@ -38,7 +39,7 @@ nav {
   margin-top: 1rem;
   margin-bottom: 1rem;
   text-align: center;
-  background-color: black;
+  background-color: var(--main-color);
   color: white;
 }
 [href] {
@@ -58,7 +59,7 @@ article + article {
 }
 
 [href]:hover {
-  background-color: black;
+  background-color: var(--main-color);
 }
 [href]:active {
   background-color: brown;
@@ -74,7 +75,7 @@ main > :nth-child(1) {
 }
 ::selection {
   background-color: chartreuse;
-  color: black;
+  color: var(--main-color);
 }
 section > h2::after {
   content: "🌳";
@@ -98,7 +99,7 @@ section > h2::before {
   padding: 0.5rem;
   border-radius: 0.25rem;
   background: orange;
-  color: black;
+  color: var(--main-color);
 }
 .cv-title {
   font-size: 2rem;
@@ -148,5 +149,11 @@ section > h2::before {
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
+  }
+}
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    --page-background-color: black;
+    --page-text-color: white;
   }
 }
